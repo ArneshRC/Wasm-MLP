@@ -1,0 +1,20 @@
+{
+  "name": "wasm-mlp",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/chart.js": "^2.9.41",
+    "vite": "^2.6.14",
+    "vite-plugin-wasm-pack": "^0.1.9"
+  },
+  "scripts": {
+    "wasm": "wasm-pack build mlp --target web",
+    "dev": "vite",
+    "build": "vite build"
+  },
+  "dependencies": {
+    "chart.js": "^4.4.7",
+    "es-toolkit": "^1.32.0"
+  }
+}

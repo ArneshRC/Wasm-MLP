@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MLP on the Browser</title>
+    <script type="module" src="/src/index.ts"></script>
+  </head>
+  <body>
+    <canvas id="draw-area" width="280" height="280"></canvas>
+    <button id="reset">RESET</button>
+    <div class="center">
+      <div id="results">
+        <canvas id="plot"></canvas>
+      </div>
+    </div>
+    <div id="overlay" class="hidden">
+      <div class="loader"></div>
+      <span>Loading model...</span>
+    </div>
+  </body>
+</html>
