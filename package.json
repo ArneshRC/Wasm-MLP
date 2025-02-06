@@ -9,7 +9,7 @@
     "vite-plugin-wasm-pack": "^0.1.9"
   },
   "scripts": {
-    "wasm": "wasm-pack build mlp --target web",
+    "wasm": "npx wasm-pack build mlp --target web",
     "dev": "vite",
     "build": "npm run wasm && vite build"
   },
